@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webbeds", "webbeds\webbeds.csproj", "{4E1ACADB-552D-43A8-AE8C-649B0F725A3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test1", "ConsoleApp1\Test1.csproj", "{8D1260C8-3517-4E1C-83BB-1B9A20C5354D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test2", "Test2\Test2.csproj", "{FA758AF4-F596-4DDB-8AF5-D5C4E94E3642}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test3", "Test3\Test3.csproj", "{57942156-2F98-4EA3-A834-696993EBAC24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E1ACADB-552D-43A8-AE8C-649B0F725A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E1ACADB-552D-43A8-AE8C-649B0F725A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E1ACADB-552D-43A8-AE8C-649B0F725A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E1ACADB-552D-43A8-AE8C-649B0F725A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D1260C8-3517-4E1C-83BB-1B9A20C5354D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D1260C8-3517-4E1C-83BB-1B9A20C5354D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D1260C8-3517-4E1C-83BB-1B9A20C5354D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D1260C8-3517-4E1C-83BB-1B9A20C5354D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA758AF4-F596-4DDB-8AF5-D5C4E94E3642}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA758AF4-F596-4DDB-8AF5-D5C4E94E3642}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA758AF4-F596-4DDB-8AF5-D5C4E94E3642}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA758AF4-F596-4DDB-8AF5-D5C4E94E3642}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57942156-2F98-4EA3-A834-696993EBAC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57942156-2F98-4EA3-A834-696993EBAC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57942156-2F98-4EA3-A834-696993EBAC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57942156-2F98-4EA3-A834-696993EBAC24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E633BC18-18F0-4A43-A834-9CF5944961C0}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://iberoservice.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = webbeds\\webbeds.csproj
+		SccProjectName1 = webbeds
+		SccLocalPath1 = webbeds
+		SccProjectUniqueName2 = ConsoleApp1\\Test1.csproj
+		SccProjectName2 = ConsoleApp1
+		SccLocalPath2 = ConsoleApp1
+		SccProjectUniqueName3 = Test2\\Test2.csproj
+		SccProjectName3 = Test2
+		SccLocalPath3 = Test2
+		SccProjectUniqueName4 = Test3\\Test3.csproj
+		SccProjectName4 = Test3
+		SccLocalPath4 = Test3
+	EndGlobalSection
+EndGlobal
