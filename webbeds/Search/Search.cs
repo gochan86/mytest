@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using webbeds.Cache;
 using webbeds.Connector.Base;
-using webbeds.Connector.CheapAwsome;
 using webbeds.Dtos;
 using webbeds.Search.Base;
 
@@ -39,7 +38,7 @@ namespace webbeds.Search
                 connectivityTask.ContinueWith(t => { }, TaskContinuationOptions.OnlyOnFaulted);
                 tasks.Add(connectivityTask);
 
-                Task.WaitAll(tasks.ToArray<Task>(), TimeSpan.FromMilliseconds(100000));
+                Task.WaitAll(tasks.ToArray<Task>(), TimeSpan.FromMilliseconds(int.Parse(ConfigurationManager.AppSettings["SearchTimeOutMilliseconds"])));
 
                 if (result != null & result.hotels.Any())
                 {
@@ -59,7 +58,10 @@ namespace webbeds.Search
         {
             var resultAux = _hotelConnector.GetHotels(destinationId: destinationId, nights: nights);
 
-            result.hotels.AddRange(resultAux?.hotels);
+            if (resultAux.hotels != null)
+            {
+                result.hotels.AddRange(resultAux.hotels);
+            }
 
         }
     }
